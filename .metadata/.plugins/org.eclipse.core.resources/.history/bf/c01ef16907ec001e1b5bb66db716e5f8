@@ -1,0 +1,11 @@
+package com.struts.action;
+
+import org.apache.struts2.convention.annotation.Action;
+import org.apache.struts2.convention.annotation.Result;
+
+public class HomeAction {
+	@Action(value = "empform",resultys = {
+			@Result(name="success",location="/WEB_INF/content/empform.jsp")
+	})
+
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<validators>
+<field name="student.name">
+<field-validator type="requiredstring">
+<message key="err.name">Name is Required</message>
+</field-validator>
+</field>
+
+
+<field name="student.age">
+<field-validator type="int">
+<param name="min">20</param>
+<param name="max">70</param>
+
+<message>Age should be 20 to 70</message>
+</field-validator>
+</field>
+
+
+
+<field name="student.name">
+<field-validator type="required">
+<message key="err.name">You must enter name.</message>
+</field-validator>
+</field>
+</validators>

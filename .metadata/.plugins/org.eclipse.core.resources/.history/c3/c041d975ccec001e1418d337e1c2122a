@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<validators>
+<field name="student.name">
+<field-validator type="required">
+<message key="err.name">You must enter name.</message>
+</field-validator>
+</field>
+</validators>

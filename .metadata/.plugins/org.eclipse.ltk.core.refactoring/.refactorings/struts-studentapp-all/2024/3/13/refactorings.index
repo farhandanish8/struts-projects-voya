@@ -1,0 +1,7 @@
+1711601852152	Move 'web.xml' to 'content'
+1711601856185	Move 'web.xml' to 'WEB-INF'
+1711602078688	Rename package 'com.struts.action'
+1711603043425	Encapsulate field 'student'
+1711603048038	Encapsulate field 'hobbies'
+1711603534351	Rename resource 'com.struts.actions'
+1711605266737	Move 'index.jsp' to 'webapp'

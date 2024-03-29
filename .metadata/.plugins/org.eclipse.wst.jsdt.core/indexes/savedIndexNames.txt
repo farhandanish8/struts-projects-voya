@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\Users\farhan.danish\FarhanTraining\StrutsDemos\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2651373840.index
+1532779794.index
+206126926.index
+979188037.index
+78035025.index
+4233624835.index
+3366347522.index
+70322715.index

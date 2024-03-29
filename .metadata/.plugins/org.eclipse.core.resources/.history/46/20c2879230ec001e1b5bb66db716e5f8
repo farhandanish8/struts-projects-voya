@@ -1,0 +1,8 @@
+student.name=StudentName
+student.age=Age
+student.email=Email
+student.gender=Gender
+student.city=City
+student.allowance=Allowance
+student.hobby=Hobby
+student.course=Course

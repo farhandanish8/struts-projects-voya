@@ -1,0 +1,9 @@
+package com.struts.action;
+
+import org.apache.struts2.convention.annotation.ResultPath;
+
+import com.opensymphony.xwork2.ActionSupport;
+@ResultPath(value ="/")
+public class StudentAction extends ActionSupport{
+
+}

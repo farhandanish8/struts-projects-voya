@@ -1,0 +1,9 @@
+package com.struts.action;
+
+import com.struts.model.Employee;
+
+public class EmployeeAction {
+	
+	private Employee employee;
+
+}

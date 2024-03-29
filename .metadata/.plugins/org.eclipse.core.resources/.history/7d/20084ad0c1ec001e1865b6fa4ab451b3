@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+	<%@ taglib prefix="s" uri="/struts-tags"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Student form</h2>
+	<s:form action="register">
+		<s:textfield name="student.name"></s:textfield>
+		<s:textfield name="student.city"></s:textfield>
+		<s:textfield name="student.age""></s:textfield>
+		<s:textfield name="student.stipend"></s:textfield>
+		<s:select name="student.course" list="{'Java','Spring','Angular'}"></s:select>
+		<s:radio name="student.gender" list="{'Male',Female'}"></s:radio>
+		<s:textfield name="student.email"></s:textfield>
+		<s:checkboxlist name="student.hobby" list="hobbies"></s:checkboxlist>
+		<s:submit value="Register"></s:submit>
+	</s:form>
+</body>
+</html> 

@@ -1,0 +1,7 @@
+package com.struts.model;
+
+public class User {
+	public String username;
+	public String city;
+
+}
